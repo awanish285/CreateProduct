@@ -22,6 +22,7 @@ public class ProductRestController {
 	@Value("${couponService.url}")
 	private String couponServiceUrl;
 
+    //this method is used to create the product and used coupon service to give discount on the product
 	@RequestMapping(value = "/products", method = RequestMethod.POST)
 	public Product create(@RequestBody Product product) {
  
