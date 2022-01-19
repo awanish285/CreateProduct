@@ -17,15 +17,18 @@ import com.awanish.spring.repositery.ProductRepo;
 public class ProductRestController {
 	@Autowired
 	ProductRepo productrepo;
+	
 	@Autowired
 	RestTemplate restTemplate;
 	@Value("${couponService.url}")
 	private String couponServiceUrl;
+	
+	//coupon.class is the data transfer object (normal plain java class to hold the response of the couponservices
 
     //this method is used to create the product and used coupon service to give discount on the product
 	@RequestMapping(value = "/products", method = RequestMethod.POST)
 	public Product create(@RequestBody Product product) {
- 
+        
 		Coupon coupon = restTemplate.getForObject(couponServiceUrl+ product.getCoupon(),Coupon.class);
 		product.setPrice(product.getPrice().subtract(coupon.getDiscount()));
 		return productrepo.save(product);
