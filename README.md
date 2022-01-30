@@ -61,4 +61,20 @@ POST: It creates a new resource.
 DELETE: It deletes the resource.
 
 =========================================================================================================================================================
+For example, if we want to perform the following actions in the social media application, we get the corresponding results.
 
+POST /users: It creates a user.
+
+GET /users/{id}: It retrieves the detail of a user.
+
+GET /users: It retrieves the detail of all users.
+
+DELETE /users: It deletes all users.
+
+DELETE /users/{id}: It deletes a user.
+
+GET /users/{id}/posts/post_id: It retrieve the detail of a specific post.
+
+POST / users/{id}/ posts: It creates a post of the user.
+
+==================================================================================================================================================================
