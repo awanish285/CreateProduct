@@ -50,4 +50,15 @@ It does not define the standard message exchange format. We can build REST servi
 JSON is more popular format with REST. The key abstraction is a resource in REST. A resource can be anything. 
 It can be accessed through a Uniform Resource Identifier (URI). 
 
+For example:
+
+The resource has representations like XML, HTML, and JSON. The current state capture by representational resource. 
+When we request a resource, we provide the representation of the resource. The important methods of HTTP are:
+
+GET: It reads a resource.
+PUT: It updates an existing resource.
+POST: It creates a new resource.
+DELETE: It deletes the resource.
+
 =========================================================================================================================================================
+
