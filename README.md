@@ -130,3 +130,44 @@ There are many differences between SOAP and REST web services. The important 10 
 
 
 ============================================================================================================================================================================
+Json VS XML
+
+JSON stands for javascript object notation.	
+The extension of json file is .json.	
+The internet media type is application/json.	
+The type of format in JSON is data interchange.	
+It is extended from javascript.	
+It is open source means that we do not have to pay anything to use JSON.	
+The object created in JSON has some type.	
+The data types supported by JSON are strings, numbers, Booleans, null, array.	
+It does not have any capacity to display the data.	
+JSON has no tags.	
+
+JSON is quicker to read and write.	
+JSON can use arrays to represent the data.	
+It can be parsed by a standard javascript function. 
+It can be easily parsed and little bit code is required to parse the data.	
+File size is smaller as compared to XML.	
+JSON is data-oriented.	
+It is less secure than XML.	
+
+XML stands for an extensible markup language.
+The extension of xml file is .xml.
+The internet media type is application/xml or text/xml.
+The type of format in XML is a markup language.
+It is extended from SGML.
+It is also open source.
+XML data does not have any type.
+XML data is in a string format.
+XML is a markup language, so it has the capacity to display the content.
+XML data is represented in tags, i.e., start tag and end tag.
+XML file is larger. If we want to represent the data in XML then it would create a larger file as compared to JSON.
+XML file takes time to read and write because the learning curve is higher.
+XML does not contain the concept of arrays.
+It has to be parsed before use.	XML data which is used to interchange the data, must be parsed with respective to their programming language to use that.
+It is difficult to parse.
+File size is larger.
+XML is document-oriented.
+It is more secure than JSON.
+
+==============================================================================================================================================================
