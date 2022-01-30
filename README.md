@@ -78,3 +78,12 @@ GET /users/{id}/posts/post_id: It retrieve the detail of a specific post.
 POST / users/{id}/ posts: It creates a post of the user.
 
 ==================================================================================================================================================================
+HTTP also defines the following standard status code:
+
+404: RESOURCE NOT FOUND
+200: SUCCESS
+201: CREATED
+401: UNAUTHORIZED
+500: SERVER ERROR
+
+=====================================================================================================================================================================
