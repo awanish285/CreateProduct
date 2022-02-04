@@ -80,11 +80,11 @@ POST / users/{id}/ posts: It creates a post of the user.
 ==================================================================================================================================================================
 HTTP also defines the following standard status code:
 
-404: RESOURCE NOT FOUND
-200: SUCCESS
-201: CREATED
-401: UNAUTHORIZED
-500: SERVER ERROR
+1) 404: RESOURCE NOT FOUND
+2) 200: SUCCESS
+3) 201: CREATED
+4) 401: UNAUTHORIZED
+5) 500: SERVER ERROR
 
 =====================================================================================================================================================================
 #RESTful Service Constraints
@@ -105,7 +105,8 @@ HTTP also defines the following standard status code:
 6) They are language neutral.
 
 ==================================================================================================================================================================
-SOAP vs REST Web Services
+#SOAP vs REST Web Services
+
 There are many differences between SOAP and REST web services. The important 10 differences between SOAP and REST are given below:
 
 1)	SOAP is a protocol.
@@ -132,7 +133,7 @@ There are many differences between SOAP and REST web services. The important 10 
 
 
 ============================================================================================================================================================================
-Json VS XML
+# Json VS XML
 
 1) JSON stands for javascript object notation.	
 2) The extension of json file is .json.	
