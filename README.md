@@ -87,20 +87,22 @@ HTTP also defines the following standard status code:
 500: SERVER ERROR
 
 =====================================================================================================================================================================
-RESTful Service Constraints
-There must be a service producer and service consumer.
-The service is stateless.
-The service result must be cacheable.
-The interface is uniform and exposing resources.
-The service should assume a layered architecture.
+#RESTful Service Constraints
+
+1) There must be a service producer and service consumer.
+2) The service is stateless.
+3) The service result must be cacheable.
+4) The interface is uniform and exposing resources.
+50) The service should assume a layered architecture.
 ================================================================================================================================================================
-Advantages of RESTful web services
-RESTful web services are platform-independent.
-It can be written in any programming language and can be executed on any platform.
-It provides different data format like JSON, text, HTML, and XML.
-It is fast in comparison to SOAP because there is no strict specification like SOAP.
-These are reusable.
-They are language neutral.
+#Advantages of RESTful web services
+
+1) RESTful web services are platform-independent.
+2) It can be written in any programming language and can be executed on any platform.
+3) It provides different data format like JSON, text, HTML, and XML.
+4) It is fast in comparison to SOAP because there is no strict specification like SOAP.
+5) These are reusable.
+6) They are language neutral.
 
 ==================================================================================================================================================================
 SOAP vs REST Web Services
