@@ -55,30 +55,30 @@ For example:
 The resource has representations like XML, HTML, and JSON. The current state capture by representational resource. 
 When we request a resource, we provide the representation of the resource. The important methods of HTTP are:
 
-GET: It reads a resource.
-PUT: It updates an existing resource.
-POST: It creates a new resource.
-DELETE: It deletes the resource.
+1) GET: It reads a resource.
+2) PUT: It updates an existing resource.
+3) POST: It creates a new resource.
+4) DELETE: It deletes the resource.
 
 =========================================================================================================================================================
-For example, if we want to perform the following actions in the social media application, we get the corresponding results.
+# For example, if we want to perform the following actions in the social media application, we get the corresponding results.
 
-POST /users: It creates a user.
+1) POST /users: It creates a user.
 
-GET /users/{id}: It retrieves the detail of a user.
+2) GET /users/{id}: It retrieves the detail of a user.
 
-GET /users: It retrieves the detail of all users.
+3) GET /users: It retrieves the detail of all users.
 
-DELETE /users: It deletes all users.
+4) DELETE /users: It deletes all users.
 
-DELETE /users/{id}: It deletes a user.
+5) DELETE /users/{id}: It deletes a user.
 
-GET /users/{id}/posts/post_id: It retrieve the detail of a specific post.
+6) GET /users/{id}/posts/post_id: It retrieve the detail of a specific post.
 
-POST / users/{id}/ posts: It creates a post of the user.
+7) POST / users/{id}/ posts: It creates a post of the user.
 
 ==================================================================================================================================================================
-HTTP also defines the following standard status code:
+# HTTP also defines the following standard status code:
 
 1) 404: RESOURCE NOT FOUND
 2) 200: SUCCESS
