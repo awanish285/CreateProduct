@@ -132,42 +132,42 @@ There are many differences between SOAP and REST web services. The important 10 
 ============================================================================================================================================================================
 Json VS XML
 
-JSON stands for javascript object notation.	
-The extension of json file is .json.	
-The internet media type is application/json.	
-The type of format in JSON is data interchange.	
-It is extended from javascript.	
-It is open source means that we do not have to pay anything to use JSON.	
-The object created in JSON has some type.	
-The data types supported by JSON are strings, numbers, Booleans, null, array.	
-It does not have any capacity to display the data.	
-JSON has no tags.	
+1) JSON stands for javascript object notation.	
+2) The extension of json file is .json.	
+3) The internet media type is application/json.	
+4) The type of format in JSON is data interchange.	
+5) It is extended from javascript.	
+6) It is open source means that we do not have to pay anything to use JSON.	
+7) The object created in JSON has some type.	
+8) The data types supported by JSON are strings, numbers, Booleans, null, array.	
+9) It does not have any capacity to display the data.	
+10) JSON has no tags.	
 
-JSON is quicker to read and write.	
-JSON can use arrays to represent the data.	
-It can be parsed by a standard javascript function. 
-It can be easily parsed and little bit code is required to parse the data.	
-File size is smaller as compared to XML.	
-JSON is data-oriented.	
-It is less secure than XML.	
+11) JSON is quicker to read and write.	
+12) JSON can use arrays to represent the data.	
+13) It can be parsed by a standard javascript function. 
+14) It can be easily parsed and little bit code is required to parse the data.	
+15) File size is smaller as compared to XML.	
+16) JSON is data-oriented.	
+17) It is less secure than XML.	
 
-XML stands for an extensible markup language.
-The extension of xml file is .xml.
-The internet media type is application/xml or text/xml.
-The type of format in XML is a markup language.
-It is extended from SGML.
-It is also open source.
-XML data does not have any type.
-XML data is in a string format.
-XML is a markup language, so it has the capacity to display the content.
-XML data is represented in tags, i.e., start tag and end tag.
-XML file is larger. If we want to represent the data in XML then it would create a larger file as compared to JSON.
-XML file takes time to read and write because the learning curve is higher.
-XML does not contain the concept of arrays.
-It has to be parsed before use.	XML data which is used to interchange the data, must be parsed with respective to their programming language to use that.
-It is difficult to parse.
-File size is larger.
-XML is document-oriented.
-It is more secure than JSON.
+1) XML stands for an extensible markup language.
+2) The extension of xml file is .xml.
+3) The internet media type is application/xml or text/xml.
+4) The type of format in XML is a markup language.
+5) It is extended from SGML.
+6) It is also open source.
+7) XML data does not have any type.
+8) XML data is in a string format.
+9) XML is a markup language, so it has the capacity to display the content.
+10)XML data is represented in tags, i.e., start tag and end tag.
+11) XML file is larger. If we want to represent the data in XML then it would create a larger file as compared to JSON.
+12) XML file takes time to read and write because the learning curve is higher.
+13) XML does not contain the concept of arrays.
+14) It has to be parsed before use.	XML data which is used to interchange the data, must be parsed with respective to their programming language to use that.
+15) It is difficult to parse.
+16) File size is larger.
+17) XML is document-oriented.
+18) It is more secure than JSON.
 
 ==============================================================================================================================================================
