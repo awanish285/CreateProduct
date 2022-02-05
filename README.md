@@ -226,3 +226,16 @@ Packages compiled code into JAR of ZIP file
 Installs the packaged code in local repository, server repository, or central repository
 
 =============================================================================================================================================================
+
+#How to install Maven on windows
+
+You can download and install maven on windows, linux and MAC OS platforms. Here, we are going to learn how to install maven on windows OS.
+
+To install maven on windows, you need to perform following steps:
+
+1) Download maven and extract it
+2) Add JAVA_HOME and MAVEN_HOME in environment variable
+3) Add maven path in environment variable
+4) Verify Maven
+
+===============================================================================================================================================================
