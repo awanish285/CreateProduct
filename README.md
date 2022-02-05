@@ -193,3 +193,14 @@ There are many problems that we face during the project development. They are di
 3) Building and Deploying the project: We must have to build and deploy the project so that it may work.
 
 ==========================================================================================================================================================
+
+#What it does?
+
+Maven simplifies the above mentioned problems. It does mainly following tasks.
+
+1) It makes a project easy to build
+2) It provides uniform build process (maven project can be shared by all the maven projects)
+3) It provides project information (log document, cross referenced sources, mailing list, dependency list, unit test reports etc.)
+4) It is easy to migrate for new features of Maven
+
+==============================================================================================================================================
