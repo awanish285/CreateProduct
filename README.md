@@ -215,3 +215,14 @@ Maven simplifies the above mentioned problems. It does mainly following tasks.
 6) Distribution
 
 =====================================================================================================================================================
+
+#What is Build Tool
+A build tool takes care of everything for building a process. It does following:
+
+Generates source code (if auto-generated code is used)
+Generates documentation from source code
+Compiles source code
+Packages compiled code into JAR of ZIP file
+Installs the packaged code in local repository, server repository, or central repository
+
+=============================================================================================================================================================
