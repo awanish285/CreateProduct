@@ -238,4 +238,11 @@ To install maven on windows, you need to perform following steps:
 3) Add maven path in environment variable
 4) Verify Maven
 
+
+# Add MAVEN_HOME in environment variable
+
+Right click on MyComputer -> properties -> Advanced System Settings -> Environment variables -> click new button
+
+Now add MAVEN_HOME in variable name and path of maven in variable value. It must be the home directory of maven i.e. outer directory of bin. For example: E:\apache-maven-3.1.1 .It is displayed below:
+
 ===============================================================================================================================================================
