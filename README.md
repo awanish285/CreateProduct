@@ -174,3 +174,22 @@ There are many differences between SOAP and REST web services. The important 10 
 18) It is more secure than JSON.
 
 ==============================================================================================================================================================
+#Maven
+
+Maven is a powerful project management tool that is based on POM (project object model). It is used for projects build, dependency and documentation.
+
+It simplifies the build process like ANT. But it is too much advanced than ANT.
+
+Current version of Maven is 3.
+
+#Understanding the problem without Maven
+
+There are many problems that we face during the project development. They are discussed below:
+
+1) Adding set of Jars in each project: In case of struts, spring, hibernate frameworks, we need to add set of jar files in each project. It must include all the dependencies of jars also.
+
+2) Creating the right project structure: We must create the right project structure in servlet, struts etc, otherwise it will not be executed.
+
+3) Building and Deploying the project: We must have to build and deploy the project so that it may work.
+
+==========================================================================================================================================================
