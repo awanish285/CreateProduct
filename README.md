@@ -204,3 +204,14 @@ Maven simplifies the above mentioned problems. It does mainly following tasks.
 4) It is easy to migrate for new features of Maven
 
 ==============================================================================================================================================
+
+#Apache Maven helps to manage
+
+1) Builds
+2) Documentation
+3) Reporing
+4) SCMs
+5) Releases
+6) Distribution
+
+=====================================================================================================================================================
