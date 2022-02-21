@@ -94,7 +94,7 @@ When we request a resource, we provide the representation of the resource. The i
 2) The service is stateless.
 3) The service result must be cacheable.
 4) The interface is uniform and exposing resources.
-50) The service should assume a layered architecture.
+5) The service should assume a layered architecture.
 ================================================================================================================================================================
 #Advantages of RESTful web services
 
@@ -177,11 +177,10 @@ There are many differences between SOAP and REST web services. The important 10 
 ==============================================================================================================================================================
 #Maven
 
-Maven is a powerful project management tool that is based on POM (project object model). It is used for projects build, dependency and documentation.
+1) Maven is a powerful project management tool that is based on POM (project object model). 
+2) It is used for projects build, dependency and documentation.
 
-It simplifies the build process like ANT. But it is too much advanced than ANT.
-
-Current version of Maven is 3.
+3) It simplifies the build process like ANT. But it is too much advanced than ANT.
 
 #Understanding the problem without Maven
 
