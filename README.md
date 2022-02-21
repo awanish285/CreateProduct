@@ -219,11 +219,11 @@ Maven simplifies the above mentioned problems. It does mainly following tasks.
 #What is Build Tool
 A build tool takes care of everything for building a process. It does following:
 
-Generates source code (if auto-generated code is used)
-Generates documentation from source code
-Compiles source code
-Packages compiled code into JAR of ZIP file
-Installs the packaged code in local repository, server repository, or central repository
+1) Generates source code (if auto-generated code is used)
+2) Generates documentation from source code
+3) Compiles source code
+4) Packages compiled code into JAR of ZIP file
+5) Installs the packaged code in local repository, server repository, or central repository
 
 =============================================================================================================================================================
 
@@ -241,9 +241,9 @@ To install maven on windows, you need to perform following steps:
 
 # Add MAVEN_HOME in environment variable
 
-Right click on MyComputer -> properties -> Advanced System Settings -> Environment variables -> click new button
+1) Right click on MyComputer -> properties -> Advanced System Settings -> Environment variables -> click new button
 
-Now add MAVEN_HOME in variable name and path of maven in variable value. It must be the home directory of maven i.e. outer directory of bin. For example: E:\apache-maven-3.1.1 .
+2) Now add MAVEN_HOME in variable name and path of maven in variable value. It must be the home directory of maven i.e. outer directory of bin. For example: E:\apache-maven-3.1.1 .
 
 # Verify maven
 To verify whether maven is installed or not, open the command prompt and write:
