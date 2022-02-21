@@ -29,10 +29,10 @@ You can use the exchange() method to consume the web services for all HTTP metho
 
 You will have to follow the given points to consume the API −
 
-Autowired the Rest Template Object.
-Use HttpHeaders to set the Request Headers.
-Use HttpEntity to wrap the request object.
-Provide the URL, HttpMethod, and Return type for Exchange() method.
+1) Autowired the Rest Template Object.
+2) Use HttpHeaders to set the Request Headers.
+3) Use HttpEntity to wrap the request object.
+4) Provide the URL, HttpMethod, and Return type for Exchange() method.
 
 
 --------------------------------------------------------------------------------------------------------
@@ -41,16 +41,17 @@ The REST application follows the REST architectural approach. We use the REST ap
 It generates the HTTP request that performs CRUD operations on the data. Usually, it returns data in JSON or XML format.
 
 =====================================================================================================================================================
-REST stands for REpresentational State Transfer. It is developed by Roy Thomas Fielding, who also developed HTTP. 
-The main goal of RESTful web services is to make web services more effective. 
-RESTful web services try to define services using the different concepts that are already present in HTTP. 
-REST is an architectural approach, not a protocol.
+1) REST stands for REpresentational State Transfer. 
+2) It is developed by Roy Thomas Fielding, who also developed HTTP. 
+3) The main goal of RESTful web services is to make web services more effective. 
+4) RESTful web services try to define services using the different concepts that are already present in HTTP. 
+5) REST is an architectural approach, not a protocol.
 
-It does not define the standard message exchange format. We can build REST services with both XML and JSON. 
-JSON is more popular format with REST. The key abstraction is a resource in REST. A resource can be anything. 
-It can be accessed through a Uniform Resource Identifier (URI). 
+1) It does not define the standard message exchange format. We can build REST services with both XML and JSON. 
+2) JSON is more popular format with REST. The key abstraction is a resource in REST. A resource can be anything. 
+3) It can be accessed through a Uniform Resource Identifier (URI). 
 
-For example:
+#For example:
 
 The resource has representations like XML, HTML, and JSON. The current state capture by representational resource. 
 When we request a resource, we provide the representation of the resource. The important methods of HTTP are:
