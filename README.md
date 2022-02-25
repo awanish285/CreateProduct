@@ -37,8 +37,9 @@ You will have to follow the given points to consume the API −
 
 --------------------------------------------------------------------------------------------------------
 
-The REST application follows the REST architectural approach. We use the REST application for developing and designing networked applications. 
-It generates the HTTP request that performs CRUD operations on the data. Usually, it returns data in JSON or XML format.
+#The REST application follows the REST architectural approach. 
+1) We use the REST application for developing and designing networked applications. 
+2) It generates the HTTP request that performs CRUD operations on the data. Usually, it returns data in JSON or XML format.
 
 =====================================================================================================================================================
 1) REST stands for REpresentational State Transfer. 
@@ -136,6 +137,7 @@ There are many differences between SOAP and REST web services. The important 10 
 ============================================================================================================================================================================
 # Json VS XML
 
+#Json:
 1) JSON stands for javascript object notation.	
 2) The extension of json file is .json.	
 3) The internet media type is application/json.	
@@ -155,6 +157,7 @@ There are many differences between SOAP and REST web services. The important 10 
 16) JSON is data-oriented.	
 17) It is less secure than XML.	
 
+#XML:
 1) XML stands for an extensible markup language.
 2) The extension of xml file is .xml.
 3) The internet media type is application/xml or text/xml.
