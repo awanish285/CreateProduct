@@ -109,7 +109,9 @@ When we request a resource, we provide the representation of the resource. The i
 ==================================================================================================================================================================
 #SOAP vs REST Web Services
 
-There are many differences between SOAP and REST web services. The important 10 differences between SOAP and REST are given below:
+#There are many differences between SOAP and REST web services. The important 10 differences between SOAP and REST are given below:
+
+#SOAP
 
 1)	SOAP is a protocol.
 2)	SOAP stands for Simple Object Access Protocol.	
@@ -121,6 +123,8 @@ There are many differences between SOAP and REST web services. The important 10 
 8)	SOAP defines its own security.	
 9)	SOAP permits XML data format only.	
 10)	SOAP is less preferred than REST.	
+
+#REST Web Services
 
 1) REST is an architectural style.
 2) REST stands for REpresentational State Transfer.
