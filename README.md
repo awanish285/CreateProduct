@@ -22,12 +22,12 @@ Git
 
 #RestTemplate
 
-Rest Template is used to create applications that consume RESTful Web Services. 
+1) Rest Template is used to create applications that consume RESTful Web Services. 
 
-You can use the exchange() method to consume the web services for all HTTP methods. 
+2) You can use the exchange() method to consume the web services for all HTTP methods. 
 
 
-You will have to follow the given points to consume the API −
+#You will have to follow the given points to consume the API −
 
 1) Autowired the Rest Template Object.
 2) Use HttpHeaders to set the Request Headers.
@@ -152,7 +152,6 @@ When we request a resource, we provide the representation of the resource. The i
 8) The data types supported by JSON are strings, numbers, Booleans, null, array.	
 9) It does not have any capacity to display the data.	
 10) JSON has no tags.	
-
 11) JSON is quicker to read and write.	
 12) JSON can use arrays to represent the data.	
 13) It can be parsed by a standard javascript function. 
@@ -193,11 +192,17 @@ When we request a resource, we provide the representation of the resource. The i
 
 There are many problems that we face during the project development. They are discussed below:
 
-1) Adding set of Jars in each project: In case of struts, spring, hibernate frameworks, we need to add set of jar files in each project. It must include all the dependencies of jars also.
+# 1) Adding set of Jars in each project: 
 
-2) Creating the right project structure: We must create the right project structure in servlet, struts etc, otherwise it will not be executed.
+In case of struts, spring, hibernate frameworks, we need to add set of jar files in each project. It must include all the dependencies of jars also.
 
-3) Building and Deploying the project: We must have to build and deploy the project so that it may work.
+# 2) Creating the right project structure: 
+
+We must create the right project structure in servlet, struts etc, otherwise it will not be executed.
+
+# 3) Building and Deploying the project: 
+
+We must have to build and deploy the project so that it may work.
 
 ==========================================================================================================================================================
 
