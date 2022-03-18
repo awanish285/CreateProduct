@@ -123,7 +123,7 @@ When we request a resource, we provide the representation of the resource. The i
 8)	SOAP defines its own security.	
 9)	SOAP permits XML data format only.	
 10)	SOAP is less preferred than REST.	
-
+============================================================================================================================================================
 #REST Web Services
 
 1) REST is an architectural style.
