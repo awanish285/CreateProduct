@@ -6,7 +6,6 @@ This createProduct services is create the product with the following parameter l
 
 It used coupon services to give the discount on the product...
 
-
 #Technology used
 Java,Spring-data-jpa,SpringRest,springWeb
 #tools
@@ -16,7 +15,6 @@ apache maveen
 
 #VC
 Git
-
 
 ======================================================================================================================================================
 
